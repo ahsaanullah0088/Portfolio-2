@@ -24,6 +24,11 @@ import genimi from '../assets/genimi.png'
 import cofee from '../assets/cofee.png'
 
 import IMDB from '../assets/imdb.png'
+import dash1 from '../assets/dash1.png'
+import dash2 from '../assets/dash2.png'
+import dash3 from '../assets/dash3.png'
+import dash4 from '../assets/dash4.png'
+import dash5 from '../assets/dash5.png'
 
 
 import '../ProjectContainer/ProjectContainer.css'
@@ -46,14 +51,20 @@ function Projects()
 <div>
    <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
       <SplideSlide>
-       <img src={Rpreview1} alt="Image 1"/>
+       <img src={dash1} alt="Image 1"/>
       </SplideSlide>
      <SplideSlide>
-     <img src={Rpreview2} alt="Image 2"/>
+     <img src={dash2} alt="Image 2"/>
      </SplideSlide>
 
      <SplideSlide>
-     <img src={Rpreview3} alt="Image 2"/>
+     <img src={dash3} alt="Image 2"/>
+     </SplideSlide>
+     <SplideSlide>
+     <img src={dash4} alt="Image 2"/>
+     </SplideSlide>
+     <SplideSlide>
+     <img src={dash5} alt="Image 2"/>
      </SplideSlide>
 
   </Splide>
@@ -84,12 +95,12 @@ function Projects()
 
 
 <div id='b'>
- <a href="https://resortsbyahsaan-550a33.netlify.app/"  target="_blank">
+ <a href="https://dashboard-react11.netlify.app/"  target="_blank">
       <span type='button' className='btn btn--outline'>  Watch Live </span>
     </a>
 
 
-    <a href="https://github.com/ahsaanullah0088/React-resorts" target="_blank" >
+    <a href="https://github.com/ahsaanullah0088/react-admin-dashboard-" target="_blank" >
       <span type='button' className='btn btn--outline'>  View Code </span>
     </a>
 
@@ -143,12 +154,12 @@ This is a dashboard made with react and tailwind css in which we can see the dat
 
 
       <div id='b'>
-       <a href="https://dashboard-react11.netlify.app/"  target="_blank">
+       <a href="https://resortsbyahsaan-550a33.netlify.app/"  target="_blank">
             <span type='button' className='btn btn--outline'>  Watch Live </span>
           </a>
 
 
-          <a href="https://github.com/ahsaanullah0088/react-admin-dashboard-" target="_blank" >
+          <a href="https://github.com/ahsaanullah0088/React-resorts" target="_blank" >
             <span type='button' className='btn btn--outline'>  View Code </span>
           </a>
     

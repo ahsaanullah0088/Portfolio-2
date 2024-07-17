@@ -75,7 +75,7 @@ function Projects()
   <h3 className="about_project">Admin Dashboard</h3>
 
   <p className='project__description'>
-  The Beach Resort App is a Web application focused on providing a seamless booking experience for beachside accommodations. It allows users to easily reserve rooms, check availability, and access essential information about the resort, ensuring a convenient stay.        </p>
+  This is a dashboard made with react and tailwind css , material UI in which we can see the data of our website. This dashboard contain 4 pages Home, Users, Products and Settings. This dashboard is fully responsive and user friendly.  </p>
 
 
   <ul className='project__stack' >
@@ -132,10 +132,10 @@ function Projects()
    
      <div>
 
-        <h3 className="about_project">React Admin Dashboard</h3>
+        <h3 className="about_project">Hotel Reservation App</h3>
 
         <p className='project__description'>
-This is a dashboard made with react and tailwind css in which we can see the data of our website. This dashboard contain 4 pages Home, Users, Products and Settings. This dashboard is fully responsive and user friendly.        </p>
+ The Beach Resort App is a Web application focused on providing a seamless booking experience for beachside accommodations. It allows users to easily reserve rooms, check availability, and access essential information about the resort, ensuring a convenient stay.      </p>
    
         <ul className='project__stack' >
        

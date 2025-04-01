@@ -29,6 +29,16 @@ import dash2 from '../assets/dash2.png'
 import dash3 from '../assets/dash3.png'
 import dash4 from '../assets/dash4.png'
 import dash5 from '../assets/dash5.png'
+import zoom1 from '../assets/zoom1.png'
+import zoom2 from '../assets/zoom2.png'
+import zoom3 from '../assets/zoom3.png'
+import zoom4 from '../assets/zoom4.png'
+import zoom5 from '../assets/zoom5.png'
+import zoom6 from '../assets/zoom6.png'
+import zoom7 from '../assets/zoom7.png'
+import zoom8 from '../assets/zoom8.png'
+import zoom9 from '../assets/zoom9.png'
+
 
 
 import '../ProjectContainer/ProjectContainer.css'
@@ -46,6 +56,87 @@ function Projects()
 
 {/* <-------------------------------------------------1 start-------------------------------------------> */}
 
+
+<div className='project' id='project'>
+
+<div>
+   <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
+      <SplideSlide>
+       <img src={zoom1} alt="Image 1"/>
+      </SplideSlide>
+     <SplideSlide>
+     <img src={zoom2} alt="Image 2"/>
+     </SplideSlide>
+
+     <SplideSlide>
+     <img src={zoom3} alt="Image 2"/>
+     </SplideSlide>
+     <SplideSlide>
+     <img src={zoom4} alt="Image 2"/>
+     </SplideSlide>
+     <SplideSlide>
+     <img src={zoom5} alt="Image 2"/>
+     </SplideSlide>
+     <SplideSlide>
+     <img src={zoom6} alt="Image 2"/>
+     </SplideSlide>
+     <SplideSlide>
+     <img src={zoom7} alt="Image 2"/>
+     </SplideSlide>
+     <SplideSlide>
+     <img src={zoom8} alt="Image 2"/>
+     </SplideSlide>
+     <SplideSlide>
+     <img src={zoom9} alt="Image 2"/>
+     </SplideSlide>
+
+  </Splide>
+</div>
+
+<div>
+
+  <h3 className="about_project">Zoom meet clone</h3>
+
+  <p className='project__description'>
+  Built with the latest Next.js and TypeScript, this project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.  </p>
+
+
+  <ul className='project__stack' >
+ 
+    <li className='project__stack-item' id='stacks'>
+      <SiHtml5 size={40} />
+       <IoLogoJavascript size={40} />
+      <SiCss3 size={40}/>
+      <FaReact size={50}/>
+    </li>
+
+  </ul>
+
+
+
+
+
+
+<div id='b'>
+ <a href="zoom-clone-nu-two.vercel.app"  target="_blank">
+      <span type='button' className='btn btn--outline'>  Watch Live </span>
+    </a>
+
+
+    <a href="https://github.com/ahsaanullah0088/zoom-clone" target="_blank" >
+      <span type='button' className='btn btn--outline'>  View Code </span>
+    </a>
+
+</div>
+
+
+</div> 
+
+
+</div>
+----------
+
+{/* ---------------------------------------------------------------------------------------------- */}
 <div className='project' id='project'>
 
 <div>

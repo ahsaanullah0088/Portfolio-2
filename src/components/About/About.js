@@ -62,11 +62,8 @@ function About  () {
                   <div id='interest' >
                    <h4 className='about__desc'> Some of my interests apart from Coding :</h4>
                
-                   <BiStar className='about__name'/> <span className='about__name'> Listening Poetry</span>
-                   <br/>
-                   <BiStar className='about__name'/> <span className='about__name'> Reading Novels</span>
-                   <br/>
-                   <BiStar className='about__name'/> <span className='about__name'> Playing Cricket</span>
+
+                   <BiStar className='about__name'/> <span className='about__name'> Playing Badminton</span>
                    <br/>
                     <BiStar className='about__name' /> <span className='about__name'>Daily gym</span>
                     </div>

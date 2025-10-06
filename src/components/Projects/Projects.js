@@ -38,7 +38,15 @@ import zoom6 from '../assets/zoom6.png'
 import zoom7 from '../assets/zoom7.png'
 import zoom8 from '../assets/zoom8.png'
 import zoom9 from '../assets/zoom9.png'
-
+import prep1 from '../assets/prep1.png'
+import prep2 from '../assets/prep2.png'
+import prep3 from '../assets/prep3.png'
+import prep4 from '../assets/prep4.png'
+import prep5 from '../assets/prep5.png'
+import prep8 from '../assets/prep8.png'
+import prep9 from '../assets/prep9.png'
+import prep10 from '../assets/prep10.png'
+import prep11 from '../assets/prep11.png'
 
 
 import '../ProjectContainer/ProjectContainer.css'
@@ -55,7 +63,82 @@ function Projects()
       <h2 className='section__title about_project' >Projects</h2>
 
 {/* <-------------------------------------------------1 start-------------------------------------------> */}
+<div className='project' id='project'>
 
+<div>
+   <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
+      <SplideSlide>
+       <img src={prep1} alt="Image 1"/>
+      </SplideSlide>
+     <SplideSlide>
+     <img src={prep2} alt="Image 2"/>
+     </SplideSlide>
+
+     <SplideSlide>
+     <img src={prep3} alt="Image 2"/>
+     </SplideSlide>
+     <SplideSlide>
+     <img src={prep4} alt="Image 2"/>
+     </SplideSlide>
+     <SplideSlide>
+     <img src={prep11} alt="Image 2"/>
+     </SplideSlide>
+     <SplideSlide>
+     <img src={prep10} alt="Image 2"/>
+     </SplideSlide>
+     <SplideSlide>
+     <img src={prep9} alt="Image 2"/>
+     </SplideSlide>
+     <SplideSlide>
+     <img src={prep8} alt="Image 2"/>
+     </SplideSlide>
+     <SplideSlide>
+     <img src={prep5} alt="Image 2"/>
+     </SplideSlide>
+
+  </Splide>
+</div>
+
+<div>
+
+  <h3 className="about_project">Doctor Appiontment Multivendor App</h3>
+
+  <p className='project__description'>
+This is a full-stack Doctor Appointment Booking Web App built using the MERN stack with Tailwind CSS. It includes separate panels for patients, doctors, and admin to manage appointments, profiles, and payments. Patients can book or cancel appointments, make online payments via Stripe, and update profiles. The platform offers secure authentication and a fully responsive design for seamless use across all devices.
+</p>
+  <ul className='project__stack' >
+ 
+    <li className='project__stack-item' id='stacks'>
+      <SiHtml5 size={40} />
+       <IoLogoJavascript size={40} />
+      <SiCss3 size={40}/>
+      <FaReact size={50}/>
+    </li>
+
+  </ul>
+
+
+
+
+
+
+<div id='b'>
+ <a href="https://doctor-frontend-wheat.vercel.app/"  target="_blank">
+      <span type='button' className='btn btn--outline'>  Watch Live </span>
+    </a>
+
+
+    <a href="https://github.com/ahsaanullah0088/Doctor-appionment-app-Mern-Stack-" target="_blank" >
+      <span type='button' className='btn btn--outline'>  View Code </span>
+    </a>
+
+</div>
+
+
+</div> 
+
+
+</div>
 
 <div className='project' id='project'>
 

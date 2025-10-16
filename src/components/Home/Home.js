@@ -36,7 +36,7 @@ function Home()
       </section>
      
    
-         <a href="https://drive.google.com/file/d/1a9gbCakEZor698iteC8OkYZAm59LqCB3/view?usp=sharing" target="_blank" id="resumeButton">
+         <a href="https://docs.google.com/document/d/1JS1opFPCeRVyztAPRV8-x_LE7aegkjMf/edit?usp=sharing&ouid=105193206278983086524&rtpof=true&sd=true" target="_blank" id="resumeButton">
             <span type='button' className='btn btn--outline'>  Resume </span>
           </a>
    
